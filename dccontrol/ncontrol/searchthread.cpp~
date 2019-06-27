@@ -1,0 +1,16 @@
+#include"searchthread.h"
+#include <qapplication.h>
+
+SeaThread::SeaThread(){
+}
+SeaThread::~SeaThread(){
+}
+void SeaThread::run(){
+    while(true){
+	pause.lock();
+	printf("running\n");
+	emit connectToServer();
+	pause.unlock();
+	sleep(1);
+    }
+}

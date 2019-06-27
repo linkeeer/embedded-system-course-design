@@ -1,0 +1,21 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>TCP_net_system_to_arm</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>TCP_net_system_to_arm</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>600</width>
+            <height>480</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Form3</string>
+    </property>
+</widget>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

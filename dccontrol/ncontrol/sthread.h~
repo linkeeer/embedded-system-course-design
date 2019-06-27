@@ -1,0 +1,7 @@
+#pragma once
+#include <qthread.h> 
+
+class SearchThread : public QThread{
+public:
+    virtual void run( );
+}
